@@ -15,7 +15,7 @@ class Players
   end
 
   def new_question
-    new_question = Robot.new
+    new_question = Questions.new
     new_question.question(name)
     print '> '
     @user_answer = gets.chomp
